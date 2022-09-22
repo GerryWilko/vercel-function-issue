@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "setup": "npm vercel login && npm vercel link",
+        "dev": "vercel setup"
+    },
+    "dependencies": {
+        "vercel": "^28.4.1"
+    }
+}
